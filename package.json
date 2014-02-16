@@ -1,30 +1,30 @@
 {
-  "author": "Martyn Eggleton <martyn@edumake.org> Zachary Bruggeman <zbruggeman@me.com>",
   "name": "minecraft-pi-vec3",
-  "description": "A Node.js API for Minecraft: Pi Edition.",
-  "license": "MIT",
-  "version": "0.1",
-  "homepage": "https://github.com/edumake/minecraft-pi-vec3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/edumake/minecraft-pi-vec3"
+  "version": "0.0.0",
+  "description": "A Node.js API for Minecraft: Pi Edition using Vec3.",
+  "main": "lib/minecraft.js",
+  "directories": {
+    "test": "test"
   },
-  "bugs": {
-    "url": "https://github.com/edumake/minecraft-pi-vec3/issues"
-  },
-  "main": "./lib/minecraft.js",
   "scripts": {
-    "test": "tap ./test/*.js"
+    "test": "test/index.js"
   },
   "dependencies": {
-      "vec3":""
+    "vec3":""
   },
-  "devDependencies": {
-    "tap": "~0.4.0",
-    "async": "~0.2.5"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EduMake/minecraft-pi-vec3.git"
   },
-  "optionalDependencies": {},
-  "engines": {
-    "node": ">=0.8"
-  }
+  "keywords": [
+    "RPi",
+    "minecraft",
+    "vec3"
+  ],
+  "author": "Martyn Eggleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduMake/minecraft-pi-vec3/issues"
+  },
+  "homepage": "https://github.com/EduMake/minecraft-pi-vec3"
 }
