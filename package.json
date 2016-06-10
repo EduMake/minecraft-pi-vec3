@@ -1,6 +1,6 @@
 {
   "name": "minecraft-pi-vec3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Node.js API for Minecraft: Pi Edition using Vec3.",
   "main": "lib/minecraft.js",
   "directories": {
@@ -10,7 +10,8 @@
     "test": "test/index.js"
   },
   "dependencies": {
-    "vec3": ""
+    "vec3": "",
+    "queue": ""
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
     "minecraft",
     "vec3"
   ],
-  "author": "Martyn Eggleton",
+  "author": {
+    "name": "Martyn Eggleton"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EduMake/minecraft-pi-vec3/issues"
@@ -31,5 +34,24 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "_id": "minecraft-pi-vec3@0.0.3",
+  "dist": {
+    "shasum": "d43805d1dfe6a520fd3068d7c35ab47a6dc7a143",
+    "tarball": "https://registry.npmjs.org/minecraft-pi-vec3/-/minecraft-pi-vec3-0.0.3.tgz"
+  },
+  "_from": "minecraft-pi-vec3@",
+  "_npmVersion": "1.3.14",
+  "_npmUser": {
+    "name": "edumake",
+    "email": "martyn@edumake.org"
+  },
+  "maintainers": [
+    {
+      "name": "edumake",
+      "email": "martyn@edumake.org"
+    }
+  ],
+  "_shasum": "d43805d1dfe6a520fd3068d7c35ab47a6dc7a143",
+  "_resolved": "https://registry.npmjs.org/minecraft-pi-vec3/-/minecraft-pi-vec3-0.0.3.tgz"
 }
